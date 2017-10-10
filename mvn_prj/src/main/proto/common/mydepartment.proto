@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package common;
+
+option java_package = "com.zwg.proto";
+option java_outer_classname = "MyCompany";
+
+message Department {
+   string name = 1;
+   int32 id = 2;
+}
+
+message Company {
+  repeated Department dept = 1;
+}
