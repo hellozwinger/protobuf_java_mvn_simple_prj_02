@@ -35,6 +35,5 @@ Map for this project:
 │   │                   └── test
 │   │                       └── CompanyTest.java
 │   └── test.sh
-├── README.md
 ├── run.sh
 └── setenv
